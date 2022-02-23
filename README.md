@@ -2,7 +2,7 @@
 ### Abstract
 This is a small project for my 2021/2022 winter vacation, to keep track of my accounts' balance every day and give some charts to have a better understanding about how my money is distributed.
 ### Server: Data pipeline
-This repository is where user's balances tracking is executed and updated to my gdrive folder. The main idea is to fetch the old log data, adding new balances record to log and update. Updates of bank accounts are realized by selenium webdriver(undetected chromedriver), and crypto exchange accounts updates are made with the connection with apis. The manipulation of user's information is another part of this project(LocateYourMoney-GUI).
+This repository is where user's balances tracking is executed and updated to my gdrive folder. The main idea is to fetch the old log data, adding new balances record to log and update. Updates of bank accounts are realized by selenium webdriver (undetected chromedriver), and crypto exchange accounts updates are made with the connection with apis. The manipulation of user's information is another part of this project(LocateYourMoney-GUI).
 ### Things not accomplished
 The main goal is to deploy this script to a cloud server to run and update routinely. The platform I chose was GCP. However, with the use of selenium, this may need a docker container to have it execute on cloud run. This is beyond my knowledge and skill-sets. May try to finish this sometimes in the future.
 ### References
